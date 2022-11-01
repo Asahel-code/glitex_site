@@ -1,0 +1,19 @@
+.services-list .service-icon {
+    color: #000000;
+}
+
+.s-services {
+    color: #000000;
+}
+
+.btn--strokee:hover, button.btn--strokee:hover {
+    border: 0.2rem solid #FFFFFF;
+    color: #FFFFFF;
+
+}
+
+.btn--strokee, button.btn--strokee {
+    background: transparent !important;
+    border: 0.2rem solid #000000;
+    color: #000000;
+}

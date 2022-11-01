@@ -1,0 +1,61 @@
+.menu_toggle {
+  left: -180px;
+}
+
+.header_num {
+  display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .menu_toggle {
+    left: -290px;
+  }
+
+  .header_num {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .menu_toggle {
+    left: -290px;
+  }
+
+  .header_num {
+    display: inline;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .menu_toggle {
+    left: -290px;
+  }
+
+  .header_num {
+    display: inline;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .menu_toggle {
+    left: -290px;
+  }
+
+  .header_num {
+    display: inline;
+  }
+}
+
+@media (min-width: 1644px) {
+  .menu_toggle {
+    left: -290px;
+  }
+
+  .header_num {
+    display: inline;
+  }
+}

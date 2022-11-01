@@ -1,0 +1,45 @@
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Base size */
+.parallax_description {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .parallax_description {
+    padding: 2rem;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .parallax_description {
+    padding: 3rem;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .parallax_description {
+    padding: 5rem;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .parallax_description {
+    padding: 8rem;
+  }
+}

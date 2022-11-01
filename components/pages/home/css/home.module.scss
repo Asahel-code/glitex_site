@@ -1,0 +1,67 @@
+.title_header_text {
+  //top: 10%;
+  // margin-left: 20px;
+  // position: absolute;
+  font-size: 8rem !important;
+  margin-bottom: 0;
+  color: var(--primary) !important;
+}
+
+.title_header {
+  position: relative;
+}
+
+.d_flex {
+  display: block;
+}
+
+.title_header_image {
+  height: 15rem;
+  //width: 100%;
+  object-fit: cover;
+}
+
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .title_header_text {
+    font-size: 10rem !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .title_header_text {
+    font-size: 12rem !important;
+  }
+
+  .d_flex {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .title_header_text {
+    font-size: 12rem !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .title_header_text {
+    font-size: 16rem !important;
+  }
+}
+
+@media (min-width: 1644px) {
+  .title_header_text {
+    font-size: 18rem !important;
+  }
+}

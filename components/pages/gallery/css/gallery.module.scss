@@ -1,0 +1,196 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+.gallery__section{
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 4rem;
+}
+
+.gallery__body{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.gallery__item{
+  flex-direction: row;
+  
+}
+
+.gallery__item__reverse{
+  flex-direction: row-reverse;
+}
+
+.gallery__image__section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0%;
+  height: 50rem;
+
+  &__left{
+    margin-left: 8rem;
+  }
+
+  &__right{
+    margin-right: 8rem;
+  }
+}
+
+.gallery__image{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.gallery__text__section{
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 1 0%;
+  width: 100%;
+  text-align: left;
+
+  &__title{
+    font-weight: bold;
+    font-size: 3rem; 
+    line-height: 1;
+    padding-bottom: 1.5rem
+  }
+
+  &__description{
+    margin: 0.25rem 0; 
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #200; 
+    line-height: 1.75rem;
+  }
+}
+
+.gallery__button__section{
+  margin-top: 2.5rem;
+  
+  &__button{
+    color: #000;
+    font-size: 1.875rem; 
+    line-height: 2.25rem; 
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border: 2px #000 solid;
+
+    &:hover{
+      background: #000;
+      color: #ffbf00;
+    }
+  }
+}
+
+
+
+.center {
+  margin-top: 250px;
+  transition: all .2s ease-in-out;
+}
+
+.container:hover .center {
+  margin-top: 20px;
+}
+
+.bottom {
+  //opacity: 0;
+  background-color: white;
+  padding: 20px;
+  //visibility: hidden;
+  transform: translateY(200px);
+  transition: all .4s ease-in-out;
+  overflow-y: hidden;
+  width: 100%;
+  color: black;
+}
+
+.bottom > p {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.bottom > h2 {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.container:hover .bottom {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.container:hover .bottom > p {
+  opacity: 1;
+}
+
+.container:hover .bottom > h2 {
+  opacity: 1;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container:hover .bottom {
+    //opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .root > div > div {
+    width: 40vh;
+    height: 70vh;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /*.center {
+    margin-top: 250px;
+    transition: all .2s ease-in-out;
+  }
+
+  .bottom > p {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .bottom > h2 {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .bottom {
+    //opacity: 0;
+    background-color: white;
+    padding: 20px;
+    //visibility: hidden;
+    transform: translateY(200px);
+    transition: all .4s ease-in-out;
+    overflow-y: hidden;
+    width: 100%;
+    color: black;
+  }*/
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
