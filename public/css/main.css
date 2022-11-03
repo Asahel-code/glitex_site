@@ -3482,6 +3482,90 @@ html.no-csstransitions .home-content__main {
         padding: 0 1.5rem;
     }
 }
+/* ===================================================================
+ * # onboarding 
+ *
+ * ------------------------------------------------------------------- */
+.onboarding{
+    display:"flex"; 
+    justify-content:"center";
+    align-items: "center";
+    background-color: "#fff";
+}
+
+.onboarding__container{
+    padding: "2rem 0";
+    width: "45%";
+}
+
+.onboarding__title{
+    color: "#000";
+    font-size: "3.75rem";
+    line-height: "1";
+    font-weight:"bold"; 
+}
+
+.onboarding__underline{
+    padding: "0.75rem 0";
+}
+
+.onboarding__body{
+    margin: "0 8rem";
+}
+
+.onboarding__body .onboarding__message{
+    margin: "2.5rem 0";
+    text-align: "justify";
+}
+
+.onboarding__btn{
+    text-align: "center";
+    background-color: var(--primary);
+    padding: "1rem 0";
+    cursor: "pointer"
+}
+
+.onboarding__btn span{
+    color: #000;
+    font-weight: "600"
+}
+
+ /* ------------------------------------------------------------------- 
+ * responsive:
+ * onboarding
+ * ------------------------------------------------------------------- */
+
+ @media only screen and (max-width: 1200px) {
+    .onboarding__container{
+        width: "45%";
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .onboarding__container{
+        width: "45%";
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .onboarding__container{
+        width: "60%";
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .onboarding__container{
+         width: "75%";
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .onboarding__container{
+        width: "90%";
+    }
+}
+
 
 /* ===================================================================
  * # contact 
