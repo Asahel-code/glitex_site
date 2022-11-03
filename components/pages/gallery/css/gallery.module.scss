@@ -141,26 +141,40 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .container:hover .bottom {
     //opacity: 1;
     visibility: visible;
     transform: translateY(0);
   }
 
+  
+
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .root > div > div {
     width: 40vh;
     height: 70vh;
   }
 
+  .gallery__body{
+    display: block;
+  }
+
+  .gallery__item{
+    flex-direction: col;  
+  }
+
+  .gallery__item__reverse{
+    flex-direction: col-reverse;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   /*.center {
     margin-top: 250px;
     transition: all .2s ease-in-out;
@@ -191,6 +205,6 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 
 }

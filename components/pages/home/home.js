@@ -15,34 +15,29 @@ const Home = ({ home }) => {
                              src={"/images/yellow_bar.png"}
                         />
                     </div> */}
-                    {home ? <div>
-                        <h1 className={styles.title_header_text}>
-                            GLITEX
-                        </h1>
-                        <h1 style={{ color: 'var(--primary)' }} className="display-3">
-                            Solutions Limited
-                        </h1>
-                        <h3 className="display-3">
-                            You Deserve Quality.
-                        </h3>
-                        <div className="home-content__buttons">
-                            <a href="#contact" className="smoothscroll btn btn--primary">
-                                Enquire
-                            </a>
-                            <a href="#about" className="smoothscroll btn btn--stroke">
-                                More About Us
-                            </a>
-                        </div>
-                        <div className="home-content__scroll">
-                            <a href="#about" className="scroll-link smoothscroll">
-                                <span>Scroll Down</span>
-                            </a>
-                        </div>
+                    <h1 className={styles.title_header_text}>
+                        GLITEX
+                    </h1>
+                    <h1 style={{ color: 'var(--primary)' }} className="display-3">
+                        Solutions Limited
+                    </h1>
+                    <h3 className="display-3">
+                        You Deserve Quality.
+                    </h3>
+                    <div className="home-content__buttons">
+                        <a href="#contact" className="smoothscroll btn btn--primary">
+                            Enquire
+                        </a>
+                        <a href="#about" className="smoothscroll btn btn--stroke">
+                            More About Us
+                        </a>
                     </div>
-                        :
-                        <div></div>}
+                    <div className="home-content__scroll">
+                        <a href="#about" className="scroll-link smoothscroll">
+                            <span>Scroll Down</span>
+                        </a>
+                    </div>
                 </div>
-
             </div>
             <ul className="home-social">
                 <li>
