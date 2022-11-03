@@ -6,7 +6,8 @@ const ProductDevelopment = () => {
         <div className="product-dev" data-aos="fade-up">
             <div style={{width: "100%", padding: "8rem"}}>
                 <div className="service-icon">
-                    <FaLaptopCode className="icon" />
+                <i className="lnr lnr-laptop icon" />
+                    {/* <FaLaptopCode className="icon" /> */}
                 </div>
                 <div className="product-dev-text">
                     <div style={{textAlign: "center"}}>

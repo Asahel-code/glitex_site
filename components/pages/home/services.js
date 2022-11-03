@@ -1,5 +1,6 @@
 import { services } from "../../../providers/services/data";
 import { getServiceSlug } from "../../../helpers/helpers";
+import {GrObjectGroup} from "react-icons";
 
 const Services = () => {
     return (

@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from "../../main/layout";
-import styles from '../../../styles/global';
 import galleryStyles from '../gallery/css/gallery.module.scss';
 import { portfolio } from "../../../providers/portfolio/data";
 import { getGallerySlug } from "../../../helpers/helpers";
