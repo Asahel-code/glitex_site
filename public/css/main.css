@@ -3541,12 +3541,6 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    .onboarding__container{
-        width: "45%";
-    }
-}
-
 @media only screen and (max-width: 800px) {
     .onboarding__container{
         width: "60%";
