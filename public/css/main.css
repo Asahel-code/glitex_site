@@ -2633,7 +2633,7 @@ html.no-csstransitions .home-content__main {
     width: 1000px;
     height: max-content;
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 

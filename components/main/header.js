@@ -85,13 +85,13 @@ const Header = () => {
                     </ul>
                 </div>
             </nav>
-            <a
+            <span
                 style={{
                     color: "White",
                     fontSize: "1rem",
                 }}
                 className="header-menu-toggle" href="#0">
-                <span
+                <a
                     style={{
                         width: "290px"
                     }}
@@ -102,9 +102,9 @@ const Header = () => {
                         color: "white"
                     }} className={styles.header_num}>Call - 0707 021 821</a>
 
-                </span>
+                </a>
                 <span className="header-menu-icon" />
-            </a>
+            </span>
         </header>
     )
 }

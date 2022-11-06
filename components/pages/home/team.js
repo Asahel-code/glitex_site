@@ -1,5 +1,5 @@
 import { team } from "../../../providers/team/data";
-import React, {useLayoutEffect, useEffect, useRef, useState} from 'react';
+import React, {useLayoutEffect, useRef, useState} from 'react';
 import { CiCircleChevRight } from 'react-icons/ci';
 
 const Team = () => {
@@ -12,18 +12,9 @@ const Team = () => {
     setWidth(imageRef.current.offsetWidth);
   }, []);
 
-  // useEffect(() => {
-  //   const div = ref.current;
-  //   if (div) {
-  //     div.addEventListener("scroll", handleScroll);
-  //   }
-  // }, []);
-
   const handleScroll = () => {
-    containerRef.current.scrollLeft += imageRef.current.offsetLeft;
-  };
-
-  console.log(width)
+    containerRef.current.scrollLeft += width;
+  }
 
   return (
     <section id="team">
@@ -46,7 +37,7 @@ const Team = () => {
             </div>
           </div>
           <div className="navigator">
-            <CiCircleChevRight onClick={() => handleScroll} />
+            <CiCircleChevRight onClick={handleScroll} />
           </div>
         </div>
       </div>
