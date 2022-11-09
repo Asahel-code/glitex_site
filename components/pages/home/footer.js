@@ -1,3 +1,5 @@
+import { BsArrowUp } from "react-icons/bs";
+
 const Footer = () => {
     const headingStyles = {
         color: "white", margin: "1rem"
@@ -6,13 +8,13 @@ const Footer = () => {
         <footer>
             <div className="row footer-main">
                 <div className="col-twelve tab-full left footer-desc">
-                    <div style={{height: "13rem"}} className="footer-logo"/>
-                    <div style={{display: "flex", justifyContent: "center"}}>
+                    <div style={{ height: "13rem" }} className="footer-logo" />
+                    <div style={{ display: "flex", justifyContent: "center" }}>
                         <h3 style={headingStyles}>
                             Glitex Solutions Limited |
                             You Deserve Quality</h3>
                     </div>
-                    <div style={{display: "flex", justifyContent: "center"}}>
+                    <div style={{ display: "flex", justifyContent: "center" }}>
                         <h3 style={headingStyles}>
                             Royal Plaza, Lumumba Drive
                         </h3>
@@ -26,8 +28,8 @@ const Footer = () => {
                     </div>
                     <div className="go-top">
                         <a className="smoothscroll" title="Back to Top" href="#top">
-                            <i className="icon-arrow-up"
-                               aria-hidden="true"/></a>
+                            <BsArrowUp />
+                        </a>
                     </div>
                 </div>
             </div>
