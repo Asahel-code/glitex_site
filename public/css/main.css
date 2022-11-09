@@ -2800,6 +2800,9 @@ html.no-csstransitions .home-content__main {
 }
 
 .service-icon .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px 20px;
     background: var(--primary);
     color: #000;
