@@ -3186,8 +3186,6 @@ html.no-csstransitions .home-content__main {
 
 .s-clients {
     padding: 2.5rem 1.5rem;
-    background-color: #000;
-    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3198,6 +3196,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .clients-outer {
+    background-color: #000;
+    color: #ffffff;
     width: 100%;
 }
 
