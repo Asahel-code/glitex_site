@@ -3185,10 +3185,9 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-clients {
-    padding: 1.5rem auto;
+    padding: 2.5rem auto;
     background-color: #000;
     color: #ffffff;
-    position: relative;
     width: 100%;
 
 }
@@ -3197,22 +3196,22 @@ html.no-csstransitions .home-content__main {
  * ## slider
  * ------------------------------------------------------------------- */
 
-.clients-outer {
-    /* margin-top: 3.6rem; */
-    /* padding: 0 ; */
-    /* text-align: center; */
-    position: relative;
-}
+/* .clients-outer {
+    margin-top: 3.6rem;
+    padding: 0 ;
+    text-align: center;
+} */
 
 .clients {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto; 
-    gap: 2.5rem
+    gap: 4.5rem
 }
 
 .clients__slide {
     /* display: block; */
     opacity: .55;
+    padding: 0 1.5rem;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
     width: 100px;
