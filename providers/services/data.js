@@ -1,9 +1,11 @@
+import { GrObjectGroup } from "react-icons/gr";
+
 export const services = [
     {
         id: 1,
         title: "SEO Company in Kenya | Search Engine Optimization in Nairobi, Kenya",
         link: "seo-companies-in-nairobi-kenya",
-        icon: "icon-paint-brush",
+        icon: <GrObjectGroup />,
         description: `
             We are the leading search engine optimization company in Kenya and across the region.
             Good ranking on top search engines means more website visitors ,sales and revenue.We use our SEO

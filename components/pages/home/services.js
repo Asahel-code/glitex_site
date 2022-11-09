@@ -20,7 +20,7 @@ const Services = () => {
                     services?.map((service, index) =>
                         <div key={service?.id} className="col-block service-item" data-aos="fade-up">
                             <div className="service-icon">
-                                <i className={`${service?.icon} icon`}/>
+                                <div className="icon">{service?.icon}</div>
                             </div>
                             <div key={service?.id} className="service-text">
                                 <h3 className="h2">
