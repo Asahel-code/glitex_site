@@ -3185,7 +3185,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-clients {
-    padding: 1.5rem 0;
+    width: 100%;
+    padding: 1.5rem auto;
     background-color: #000;
     color: #ffffff;
     position: relative;
@@ -3197,9 +3198,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .clients-outer {
-    width: 100%;
     /* margin-top: 3.6rem; */
-    padding: 0 9rem;
+    /* padding: 0 ; */
     /* text-align: center; */
     position: relative;
 }
