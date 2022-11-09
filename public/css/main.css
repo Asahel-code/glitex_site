@@ -3185,7 +3185,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-clients {
-    padding: 2.5rem 8rem;
+    padding: 2.5rem 4rem;
     background-color: #000;
     color: #ffffff;
     width: 100%;
@@ -3211,7 +3211,6 @@ html.no-csstransitions .home-content__main {
 .clients__slide {
     /* display: block; */
     opacity: .55;
-    padding: 0 1.5rem;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
     width: 100px;
