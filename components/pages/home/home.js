@@ -1,5 +1,5 @@
 import styles from './css/home.module.scss';
-import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
+// import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Home = ({ home }) => {
     return (
@@ -40,7 +40,7 @@ const Home = ({ home }) => {
                     </div>
                 </div>
             </div>
-            <ul className="home-social">
+            {/* <ul className="home-social">
                 <li>
                     <a
                         href="https://web.facebook.com/glitexsolutionslimited">
@@ -84,10 +84,10 @@ const Home = ({ home }) => {
                         }}
                             aria-hidden="true" /><span>LinkedIn</span></a>
                 </li>
-                {/*<li>
+                {<li>
                     <a href="#0"><i className="fa fa-youtube" aria-hidden="true"/><span>YouTube</span></a>
-                </li>*/}
-            </ul>
+                </li>}
+            </ul> */}
         </section>
     )
 }
