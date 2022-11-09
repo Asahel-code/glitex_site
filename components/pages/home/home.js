@@ -46,6 +46,8 @@ const Home = ({ home }) => {
                         href="https://web.facebook.com/glitexsolutionslimited">
                         <BsFacebook style={{
                             border: "2px solid var(--primary)",
+                            padding: "10px",
+                            borderRadius: "50%",
                             color: "#ffffff"
                         }}
                             aria-hidden="true" /><span>Facebook</span></a>
@@ -54,6 +56,8 @@ const Home = ({ home }) => {
                     <a href="https://twitter.com/GlitexSolutions">
                         <BsTwitter style={{
                             border: "2px solid var(--primary)",
+                            padding: "10px",
+                            borderRadius: "50%",
                             color: "#ffffff"
                         }}
                             aria-hidden="true" /><span>Twiiter</span></a>
@@ -63,6 +67,8 @@ const Home = ({ home }) => {
                         href="https://www.instagram.com/glitexsolutions/">
                         <BsInstagram style={{
                             border: "2px solid var(--primary)",
+                            padding: "10px",
+                            borderRadius: "50%",
                             color: "#ffffff"
                         }}
                             aria-hidden="true" /><span>Instagram</span></a>
@@ -72,6 +78,8 @@ const Home = ({ home }) => {
                         href="https://www.linkedin.com/in/glitex-solutions/">
                         <BsLinkedin style={{
                             border: "2px solid var(--primary)",
+                            padding: "10px",
+                            borderRadius: "50%",
                             color: "#ffffff"
                         }}
                             aria-hidden="true" /><span>LinkedIn</span></a>
