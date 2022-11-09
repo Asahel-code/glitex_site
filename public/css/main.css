@@ -2803,7 +2803,7 @@ html.no-csstransitions .home-content__main {
     padding: 10px 20px;
     background: var(--primary);
     color: #000;
-    font-size: 5.0rem;
+    font-size: 10.0rem;
     border-radius: 50%;
 }
 
