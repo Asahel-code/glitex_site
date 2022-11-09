@@ -3185,7 +3185,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-clients {
-    padding: 2.5rem auto;
+    padding: 2.5rem 8rem;
     background-color: #000;
     color: #ffffff;
     width: 100%;
@@ -3205,7 +3205,7 @@ html.no-csstransitions .home-content__main {
 .clients {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto; 
-    gap: 4.5rem
+    gap: 1.5rem
 }
 
 .clients__slide {
