@@ -67,22 +67,22 @@ const Header = () => {
                     <ul className="header-nav__social">
                         <li>
                             <a href="https://www.facebook.com/glitexsolutions/">
-                                <BsFacebook />
+                                <BsFacebook aria-hidden="true"/>
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/GlitexSolutions">
-                                <BsTwitter />
+                                <BsTwitter aria-hidden="true"/>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/glitexsolutions/">
-                                <BsInstagram />
+                                <BsInstagram aria-hidden="true"/>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/glitex-solutions/">
-                                <BsLinkedin />
+                                <BsLinkedin aria-hidden="true" />
                             </a>
                         </li>
                     </ul>
