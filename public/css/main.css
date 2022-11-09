@@ -3204,7 +3204,7 @@ html.no-csstransitions .home-content__main {
 .clients {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-    gap: 3.5rem;
+    gap: 3.2rem;
 }
 
 .clients__slide {
