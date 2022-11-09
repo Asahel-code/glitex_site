@@ -1492,10 +1492,11 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
+
     /* .section-header {
         max-width: 800px;
     } */
-    .s-clients{
+    .s-clients {
         height: fit-content;
     }
 }
@@ -2668,7 +2669,7 @@ html.no-csstransitions .home-content__main {
     margin: 0;
 }
 
-.navigator{
+.navigator {
     color: #ffca57;
     padding-left: 2.0rem;
     font-size: 6.0rem;
@@ -2683,75 +2684,75 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * services
  * ------------------------------------------------------------------- */
- @media only screen and (max-width: 1200px) {
-    .team__images__content{
+@media only screen and (max-width: 1200px) {
+    .team__images__content {
         width: 1000px;
-    } 
+    }
 
     .team__image {
         width: 250px;
     }
-    
+
     .team__image img {
         height: 300px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .team__images__content{
+    .team__images__content {
         width: 700px;
-    } 
+    }
 
     .team__image {
         width: 250px;
     }
-    
+
     .team__image img {
         height: 300px;
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .team__images__content{
+    .team__images__content {
         width: 500px;
-    } 
+    }
 
     .team__image {
         width: 250px;
     }
-    
+
     .team__image img {
         height: 250px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .team__images__content{
+    .team__images__content {
         width: 400px;
-    } 
+    }
 
     .team__image {
         width: 200px;
     }
-    
+
     .team__image img {
         height: 200px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .team__images__content{
+    .team__images__content {
         width: 200px;
-    } 
+    }
 
     .team__image {
         width: 200px;
     }
-    
+
     .team__image img {
         height: 200px;
     }
-} 
+}
 
 /* ===================================================================
  * # services
@@ -2838,7 +2839,7 @@ html.no-csstransitions .home-content__main {
     }
 
     .services-list .service-item {
-        padding:30px 0 30px;
+        padding: 30px 0 30px;
     }
 }
 
@@ -3203,7 +3204,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto
 }
 
 .clients__slide {
@@ -3329,9 +3331,11 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
-    .clients{
-        display:hidden;
+    .clients {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
     }
+
     .clients-testimonials .testimonials {
         margin: 0 12%;
     }
@@ -3356,6 +3360,11 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 800px) {
+    .clients {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+
     .clients-testimonials::before {
         width: 400px;
     }
@@ -3397,6 +3406,10 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 400px) {
+    .clients {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
     .clients-testimonials .testimonials p {
         font-size: 1.9rem;
     }
@@ -3406,156 +3419,159 @@ html.no-csstransitions .home-content__main {
  * # stacks
  *
  * ------------------------------------------------------------------- */
- .stacks{
+.stacks {
     padding: "4rem"
- }
+}
 
- .stacks__header{
+.stacks__header {
     text-align: center;
- }
+}
 
- .stacks__header h2{
+.stacks__header h2 {
     color: var(--primary);
     font-size: "3.75rem";
-    line-height: 1; 
+    line-height: 1;
     font-weight: bold;
- }
+}
 
- .stacks__container{
+.stacks__container {
     display: flex;
     justify-content: center;
- }
+}
 
- .stacks__body{
+.stacks__body {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
-    
- }
 
- .stacks__body .stacks__item{
+}
+
+.stacks__body .stacks__item {
     flex-direction: "column";
     justify-content: "center";
     padding: "0 6.5rem";
- }
+}
 
- .stacks__item p{
+.stacks__item p {
     color: #fff;
- }
+}
 
- /* ------------------------------------------------------------------- 
+/* ------------------------------------------------------------------- 
  * responsive:
  * stacks
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
-    .stacks__body{
+    .stacks__body {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto auto auto auto;
-     }
+    }
 }
 
 @media only screen and (max-width: 1000px) {
-    .stacks__body{
+    .stacks__body {
         display: grid;
         grid-template-columns: auto auto auto auto auto;
     }
-    .stacks__body .stacks__item{
+
+    .stacks__body .stacks__item {
         padding: 0 0.5rem;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .stacks__body{
+    .stacks__body {
         display: grid;
         grid-template-columns: auto auto auto;
-     }
+    }
 }
 
 
 @media only screen and (max-width: 400px) {
-    .stacks__body{
+    .stacks__body {
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto;
     }
-    .stacks__body .stacks__item{
+
+    .stacks__body .stacks__item {
         padding: 0 1.5rem;
     }
 }
+
 /* ===================================================================
  * # onboarding 
  *
  * ------------------------------------------------------------------- */
-.onboarding{
-    display:"flex"; 
-    justify-content:"center";
+.onboarding {
+    display: "flex";
+    justify-content: "center";
     align-items: "center";
     background-color: "#fff";
 }
 
-.onboarding__container{
+.onboarding__container {
     padding: "2rem 0";
     width: "45%";
 }
 
-.onboarding__title{
+.onboarding__title {
     color: "#000";
     font-size: "3.75rem";
     line-height: "1";
-    font-weight:"bold"; 
+    font-weight: "bold";
 }
 
-.onboarding__underline{
+.onboarding__underline {
     padding: "0.75rem 0";
 }
 
-.onboarding__body{
+.onboarding__body {
     margin: "0 8rem";
 }
 
-.onboarding__body .onboarding__message{
+.onboarding__body .onboarding__message {
     margin: "2.5rem 0";
     text-align: "justify";
 }
 
-.onboarding__btn{
+.onboarding__btn {
     text-align: "center";
     background-color: var(--primary);
     padding: "1rem 0";
     cursor: "pointer"
 }
 
-.onboarding__btn span{
+.onboarding__btn span {
     color: #000;
     font-weight: "600"
 }
 
- /* ------------------------------------------------------------------- 
+/* ------------------------------------------------------------------- 
  * responsive:
  * onboarding
  * ------------------------------------------------------------------- */
 
- @media only screen and (max-width: 1200px) {
-    .onboarding__container{
+@media only screen and (max-width: 1200px) {
+    .onboarding__container {
         width: "45%";
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .onboarding__container{
+    .onboarding__container {
         width: "60%";
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .onboarding__container{
-         width: "75%";
+    .onboarding__container {
+        width: "75%";
     }
 }
 
 
 @media only screen and (max-width: 400px) {
-    .onboarding__container{
+    .onboarding__container {
         width: "90%";
     }
 }
