@@ -3204,6 +3204,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients {
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto; 
 }
