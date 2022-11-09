@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from './css/header.module.scss';
+import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Header = () => {
     const [isIndex, setIsIndex] = useState();
