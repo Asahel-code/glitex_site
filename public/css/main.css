@@ -3213,7 +3213,7 @@ html.no-csstransitions .home-content__main {
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
     width: 100px;
-    height: 100px;
+    height: 80px;
 }
 
 .clients__slide__image {
