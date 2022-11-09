@@ -14,8 +14,8 @@ const Clients = () => {
                     <h1 className="display-2">Glitex has been honored to partner up with these clients</h1>
                 </div>
             </div> */}
-            <div className="row clients-outer" data-aos="fade-up">
-                <div className="col-full">
+            <div className="" data-aos="fade-up">
+                <div className="clients-outer">
                     <div className="clients">
                         <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/saf-logo.png" /></a>
                         <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/kaj.png" /></a>
