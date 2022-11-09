@@ -3410,6 +3410,7 @@ html.no-csstransitions .home-content__main {
         display: grid;
         grid-template-columns: auto auto auto;
     }
+    
     .clients-testimonials .testimonials p {
         font-size: 1.9rem;
     }
