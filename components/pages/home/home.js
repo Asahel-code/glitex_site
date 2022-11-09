@@ -1,4 +1,5 @@
 import styles from './css/home.module.scss';
+import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Home = ({ home }) => {
     return (
@@ -43,39 +44,36 @@ const Home = ({ home }) => {
                 <li>
                     <a
                         href="https://web.facebook.com/glitexsolutionslimited">
-                        <i style={{
+                        <BsFacebook style={{
                             border: "2px solid var(--primary)",
                             color: "#ffffff"
                         }}
-                            className="fa fa-facebook"
                             aria-hidden="true" /><span>Facebook</span></a>
                 </li>
                 <li>
                     <a href="https://twitter.com/GlitexSolutions">
-                        <i style={{
+                        <BsTwitter style={{
                             border: "2px solid var(--primary)",
                             color: "#ffffff"
                         }}
-                            className="fa fa-twitter"
                             aria-hidden="true" /><span>Twiiter</span></a>
                 </li>
                 <li>
                     <a
                         href="https://www.instagram.com/glitexsolutions/">
-                        <i style={{
+                        <BsInstagram style={{
                             border: "2px solid var(--primary)",
                             color: "#ffffff"
                         }}
-                            className="fa fa-instagram"
                             aria-hidden="true" /><span>Instagram</span></a>
                 </li>
                 <li>
                     <a
                         href="https://www.linkedin.com/in/glitex-solutions/">
-                        <i style={{
+                        <BsLinkedin style={{
                             border: "2px solid var(--primary)",
                             color: "#ffffff"
-                        }} className="fa fa-linkedin"
+                        }}
                             aria-hidden="true" /><span>LinkedIn</span></a>
                 </li>
                 {/*<li>
