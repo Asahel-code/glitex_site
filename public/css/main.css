@@ -1723,8 +1723,7 @@ input::-moz-focus-inner {
 
 .header-nav__social li a {
     font-size: 0.5rem;
-    /* color: rgba(255, 255, 255, 0.15); */
-    color: #000;
+    color: rgba(255, 255, 255, 0.15) !important;
 }
 
 .header-nav__social li a:hover,
