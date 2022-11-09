@@ -4,13 +4,14 @@ import { FaLaptopCode } from 'react-icons/fa';
 const ProductDevelopment = () => {
     return (
         <div className="product-dev" data-aos="fade-up">
-            <div style={{width: "100%", padding: "8rem"}}>
+            <div style={{ width: "100%", padding: "8rem" }}>
                 <div className="service-icon">
-                <i className="lnr lnr-laptop icon" />
-                    {/* <FaLaptopCode className="icon" /> */}
+                    <div className="icon">
+                        <FaLaptopCode />
+                    </div>
                 </div>
                 <div className="product-dev-text">
-                    <div style={{textAlign: "center"}}>
+                    <div style={{ textAlign: "center" }}>
                         <h3 className="h2">
                             Startup products development
                         </h3>

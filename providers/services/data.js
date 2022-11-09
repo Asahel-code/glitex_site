@@ -1,11 +1,18 @@
 import { GrObjectGroup } from "react-icons/gr";
+import { RiBrush4Fill } from "react-icons/ri";
+import { TiWorldOutline } from "react-icons/ti";
+import { FaBriefcaseMedical, FaRegUser } from "react-icons/fa";
+import { BiCube } from "react-icons/bi"
+import { TbLeaf } from "react-icons/tb"
+
+
 
 export const services = [
     {
         id: 1,
         title: "SEO Company in Kenya | Search Engine Optimization in Nairobi, Kenya",
         link: "seo-companies-in-nairobi-kenya",
-        icon: <GrObjectGroup />,
+        icon: <RiBrush4Fill />,
         description: `
             We are the leading search engine optimization company in Kenya and across the region.
             Good ranking on top search engines means more website visitors ,sales and revenue.We use our SEO
@@ -58,7 +65,7 @@ export const services = [
         id: 2,
         title: "Mobile App Developers in Kenya | Android Apps | IOS Apps",
         link: "mobile-app-developers-in-kenya",
-        icon: "icon-group",
+        icon: <GrObjectGroup />,
         meta: {
             description: "For Android mobile app and IOS mobile application development in Kenya, Contact Glitex Solutions Limited. We have the best mobile app developers in Nairobi Kenya.",
             keywords: "Mobile App developers in Kenya, IOS & Android mobile application development in Kenya, Mobile app development company in Kenya"
@@ -122,7 +129,7 @@ export const services = [
         id: 3,
         title: "E-learning Platforms in Nairobi, Kenya for  Primary, Secondary Schools, Colleges & Universities",
         subtitle: "",
-        icon: "icon-earth",
+        icon: <TiWorldOutline />,
         link: "elearning-platforms-in-kenya",
         description: `
             Glitex Solutions Limited is among the leading software development companies in Kenya that designs, develops and delivers
@@ -168,7 +175,7 @@ export const services = [
     {
         id: 5,
         title: "Hospital Management System Kenya & SACCO Management System Nairobi Kenya",
-        icon: "icon-lego-block",
+        icon: <FaBriefcaseMedical />,
         link: "management-information-systems-in-kenya",
         meta: {
             keywords: "school management system kenya, colleges and universities kenya, Church management systems in Kenya, Hospital management systems in Kenya, Sacco Management Systems in Kenya,Financial Management systems kenya, pharmacy systems"
@@ -202,7 +209,7 @@ export const services = [
     {
         id: 8,
         title: "Website Developers in Nairobi, Kenya",
-        icon: "icon-cube",
+        icon: <BiCube />,
         link: "website-developers-in-kenya",
         description: `
             We are among the best website developers in Kenya and Africa in general. Our skilled engineering team employs years of hard-earned experience to ensure our end 
@@ -252,7 +259,7 @@ export const services = [
     {
         id: 4,
         title: "E-Commerce Website Developers Nairobi Kenya | Ecommerce Mobile Application Developers Kenya",
-        icon: "icon-cube",
+        icon: <BiCube />,
         link: "ecommerce-website-developers-in-kenya",
         meta: {
             keywords: "ecommerce website developers in kenya, ecommerce mobile apps developers in kenya, ecommerce platforms developers in kenya, ecommerce website development"
@@ -297,7 +304,7 @@ export const services = [
         id: 6,
         title: "Our School Management System with both Android and IOS Apps in Nairobi, Kenya",
         subtitle: "School Management software in Kenya | School ERP Kenya",
-        icon: "icon-user",
+        icon: <FaRegUser />,
         link: "school-management-system-in-kenya",
         description: `
             Glitex School System is a user-friendly School Management System in Kenya.
@@ -349,7 +356,7 @@ export const services = [
     {
         id: 7,
         title: "USSD services in Nairobi, Kenya",
-        icon: "icon-leaf",
+        icon: <TbLeaf />,
         link: "ussd-codes-kenya",
         description: `
             USSD Codes in Nairobi, Kenya are now affordable!
