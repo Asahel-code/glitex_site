@@ -64,7 +64,7 @@ const Header = () => {
                     <p>
                         Phone: (+254) 707021821
                     </p>
-                    <ul className="header-nav__social">
+                    {/* <ul className="header-nav__social">
                         <li>
                             <a href="https://www.facebook.com/glitexsolutions/">
                                 <BsFacebook aria-hidden="true"/>
@@ -85,7 +85,7 @@ const Header = () => {
                                 <BsLinkedin aria-hidden="true" />
                             </a>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
             </nav>
             <span
