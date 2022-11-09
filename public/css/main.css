@@ -3185,10 +3185,11 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-clients {
-    padding: 2.5rem 4rem;
+    padding: 2.5rem 1.5rem;
     background-color: #000;
     color: #ffffff;
-    width: 100%;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -3196,11 +3197,9 @@ html.no-csstransitions .home-content__main {
  * ## slider
  * ------------------------------------------------------------------- */
 
-/* .clients-outer {
-    margin-top: 3.6rem;
-    padding: 0 ;
-    text-align: center;
-} */
+.clients-outer {
+    width: 100%;
+}
 
 .clients {
     display: grid;
