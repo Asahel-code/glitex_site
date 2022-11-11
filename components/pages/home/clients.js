@@ -18,7 +18,6 @@ const Clients = () => {
                 <div className="clients-outer">
                     <marquee direction="left">
                         <div className="clients">
-
                             <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/saf-logo.png" /></a>
                             <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/kaj.png" /></a>
                             <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/Kengen-logo.png" /></a>

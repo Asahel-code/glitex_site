@@ -27,10 +27,10 @@ function AllServices({
                         end: offset + 1
                     }}
                     style={{
-                        backgroundImage: `url('${page.banner}')`,
-                        backgroundSize: "cover",
-                        width: "100%",
-                        zIndex: -1
+                        backgroundColor: "#ffbf00",
+                        // backgroundSize: "cover",
+                        // width: "100%",
+                        // zIndex: -1
                     }}>
                 </ParallaxLayer>);
 
