@@ -37,10 +37,10 @@ function AllServices({
             children.push(
                 <ParallaxLayer
                     key={`o${i}`}
-                    sticky={{
-                        start: offset,
-                        end: offset + 1
-                    }}
+                    // sticky={{
+                    //     start: offset,
+                    //     end: offset + 1
+                    // }}
                     style={{
                         background: "#ffbf00",
                         width: "100%",
