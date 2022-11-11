@@ -3200,14 +3200,12 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .clients-outer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    overflow-x: hidden;
 }
 
 .clients {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    display: flex;
+    align-items: center;
     gap: 3.2rem;
 }
 
@@ -3216,8 +3214,8 @@ html.no-csstransitions .home-content__main {
     opacity: .55;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
-    width: 100px;
-    height: 80px;
+    width: 120px;
+    height: 60px;
 }
 
 .clients__slide__image {
@@ -3335,11 +3333,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
-    .clients {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-    }
-
     .clients-testimonials .testimonials {
         margin: 0 12%;
     }
@@ -3358,17 +3351,9 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 1000px) {
-    .clients-testimonials .testimonials p {
-        font-size: 2.2rem;
-    }
 }
 
 @media only screen and (max-width: 800px) {
-    .clients {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-    }
-
     .clients-testimonials::before {
         width: 400px;
     }

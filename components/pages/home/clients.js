@@ -16,18 +16,21 @@ const Clients = () => {
             </div> */}
             <div className="" data-aos="fade-up">
                 <div className="clients-outer">
-                    <div className="clients">
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/saf-logo.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/kaj.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/Kengen-logo.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/logo-240.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/mgc_logo.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/name.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/plenser-limited.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/sfs.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/TUKenya-logo.png" /></a>
-                        <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/wbnk.png" /></a>
-                    </div>
+                    <marquee direction="left">
+                        <div className="clients">
+
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/saf-logo.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/kaj.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/Kengen-logo.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/logo-240.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/mgc_logo.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/name.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/plenser-limited.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/sfs.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/TUKenya-logo.png" /></a>
+                            <a href="#0" title="" className="clients__slide"><img className="clients__slide__image" src="images/clients/wbnk.png" /></a>
+                        </div>
+                    </marquee>
                 </div>
             </div>
             {/* <div className="row clients-testimonials" data-aos="fade-up">
