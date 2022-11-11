@@ -42,7 +42,7 @@ function AllServices({
                         end: offset + 1
                     }}
                     style={{
-                        background: "black",
+                        background: "#ffbf00",
                         width: "100%",
                         opacity: .5,
                         zIndex: -1
@@ -58,20 +58,20 @@ function AllServices({
                 }}>
                 <div className={styles.parallax_description}>
                     <h1 style={{
-                        color: "white",
+                        color: "black",
                         marginBottom: "2rem"
                     }} className="display-2">
                         {page.title || service.title}
                     </h1>
                     {(service.subtitle || page.subtitle) &&
                     <h2 style={{
-                        color: "white",
+                        color: "black",
                         marginTop: "2rem"
                     }} className="service-detail-subtitle">
                         {page.subtitle || service.subtitle}
                     </h2>
                     }
-                    <p style={{color: "white"}}>{page.description}</p>
+                    <p style={{color: "black"}}>{page.description}</p>
                 </div>
             </ParallaxLayer>);
         }
