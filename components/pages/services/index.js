@@ -27,7 +27,7 @@ function AllServices({
                         end: offset + 1
                     }}
                     style={{
-                        backgroundColor: "#ffbf00",
+                        // backgroundImage: `url('${page.banner}')`,
                         // backgroundSize: "cover",
                         // width: "100%",
                         // zIndex: -1
