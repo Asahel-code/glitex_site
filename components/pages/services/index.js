@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from "../../main/layout";
+import Footer from "../home/footer";
 import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import styles from './css/services.module.scss';
 import Head from 'next/head';
@@ -115,6 +116,7 @@ function AllServices({
                     </ParallaxLayer>
                 }
             </Parallax>
+            <Footer />
         </Layout>
     );
 }
