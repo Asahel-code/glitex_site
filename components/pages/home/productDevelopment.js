@@ -4,7 +4,7 @@ import { FaLaptopCode } from 'react-icons/fa';
 const ProductDevelopment = () => {
     return (
         <div className="product-dev" data-aos="fade-up">
-            <div style={{ width: "100%", padding: "8rem" }}>
+            <div style={{ width: "100%", padding: "4rem 8rem" }}>
                 <div className="service-icon">
                     <div className="icon">
                         <FaLaptopCode />

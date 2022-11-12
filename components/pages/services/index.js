@@ -43,9 +43,7 @@ function AllServices({
                     // }}
                     style={{
                         background: "#ffbf00",
-                        width: "100%",
-                        opacity: .5,
-                        zIndex: -1
+                        width: "100%"
                     }}>
                 </ParallaxLayer>);
 
