@@ -98,7 +98,8 @@ export const services = [
                 development needs not only the skills of a mobile developer but a multitude of disciplines 
                 to realise a successful app. Glitex Solutions Limited offer a one-stop-shop for all your mobile 
                 app development needs for both iOS and Android.
-                `
+                `,
+                banner: "/images/services/bg_3.jpg"
             },
             {
                 id: 2,
