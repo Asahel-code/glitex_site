@@ -13,6 +13,24 @@
   color: black;
 }
 
+.service{
+  background-color: #ffbf00;
+  padding: 2rem 12rem;
+  &__title{
+    text-align: center;
+    h3{
+      color: #000;
+      font-size: 3.0rem;
+      font-weight: bold; 
+    }
+
+    p{
+      font-size: 2.0rem;
+      color: #000;
+    }
+  }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .parallax_description {

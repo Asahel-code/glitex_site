@@ -1411,7 +1411,7 @@ input::-moz-focus-inner {
 
 .subheader__content {
     text-align: center;
-    padding: 4rem 0;
+    padding: 8rem 16rem;
 }
 
 .subheader__content h1 {

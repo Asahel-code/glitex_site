@@ -12,7 +12,7 @@ function TheGallery({ dontShowNav }) {
             style={{
                 paddingTop: "5rem",
                 marginLeft: 0,
-                marginRight: 0, 
+                marginRight: 0,
             }}>
             {
                 newPortfolio.map((galleryItem, index) =>
@@ -32,19 +32,19 @@ function TheGallery({ dontShowNav }) {
     );
 }
 
-function SingleGalleryItem({
+export const SingleGalleryItem = ({
     galleryItem,
     index
-}) {
+}) => {
     return (
         <div>
             <div className={galleryStyles.gallery__section}>
                 <div className={`${galleryStyles.gallery__body} ${index % 2 === 1 ? galleryStyles.gallery__item__reverse : galleryStyles.gallery__item}`}>
                     <div className={`${galleryStyles.gallery__image__section} ${galleryStyles.flexCenter}  ${index % 2 === 1 ? galleryStyles.gallery__image__section__left : galleryStyles.gallery__image__section__right}`}>
-                        <img src={galleryItem.image} alt="galleryItem" className={`${galleryStyles.gallery__image} ${index % 2 === 1 ? " fadeLeftMini" : " fadeRightMini"}`} />
+                        <img src={galleryItem.image || galleryItem.banner} alt="galleryItem" className={`${galleryStyles.gallery__image} ${index % 2 === 1 ? " fadeLeftMini" : " fadeRightMini"}`} />
                     </div>
                     <div className={`${galleryStyles.gallery__text__section} ${index % 2 === 1 ? "fadeRightMini" : "fadeLeftMini"}`}>
-                        <h1 className={galleryStyles.gallery__text__section__title}>{galleryItem.name}</h1>
+                        <h1 className={galleryStyles.gallery__text__section__title}>{galleryItem.name || galleryItem.subtitle}</h1>
                         <p className={galleryStyles.gallery__text__section__description}>{galleryItem.description}</p>
                         <div className={galleryStyles.gallery__button__section}>
                             <span className={galleryStyles.gallery__button__section__button} onClick={() => { window.location.href = getGallerySlug(galleryItem, index); }}>
