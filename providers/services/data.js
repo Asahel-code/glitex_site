@@ -260,7 +260,7 @@ export const services = [
     {
         id: 4,
         title: "E-Commerce Website Developers Nairobi Kenya | Ecommerce Mobile Application Developers Kenya",
-        icon: <BiCube />,
+        icon:   <BiCube />,
         link: "ecommerce-website-developers-in-kenya",
         meta: {
             keywords: "ecommerce website developers in kenya, ecommerce mobile apps developers in kenya, ecommerce platforms developers in kenya, ecommerce website development"

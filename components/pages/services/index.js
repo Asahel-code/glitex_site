@@ -127,7 +127,7 @@ function AllServices({
                 </div>
                 <div>
                     {service?.pages.map((page, index) =>
-                        <SingleGalleryItem index={index} galleryItem={page} />
+                        <SingleGalleryItem key={index} index={index} galleryItem={page} />
                     )}
                 </div>
             </div>

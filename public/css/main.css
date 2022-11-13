@@ -1404,7 +1404,7 @@ input::-moz-focus-inner {
 }
 
 .subheader__body {
-    background-image: url(../images/home_background.jpg);
+    /* background-image: url(../images/home_background.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -3514,9 +3514,9 @@ html.no-csstransitions .home-content__main {
     background-color: "#fff";
 }
 
-.onboarding__container {
+.onboard__container {
     padding: "2rem 0";
-    width: "45%";
+    width: "20%";
 }
 
 .onboarding__title {

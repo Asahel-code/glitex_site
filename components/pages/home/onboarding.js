@@ -4,7 +4,7 @@ const Onboarding = () => {
     return (
         <section id="onboarding">
             <div style={{ display:"flex", justifyContent:"center", alignItems: "center", backgroundColor: "#fff" }} className="bg-white flex justify-center items-center">
-                <div className="onboarding__container">
+                <div className="onboard__container" style={{width: "45%"}}>
                     <div className="row section-header" data-aos="fade-up">
                         <div className="onboarding__container">
                             <h3 style={{ color: "black", fontSize: "3.75rem", lineHeight: "1", fontWeight:"bold" }}>Our onboarding process</h3>
