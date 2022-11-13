@@ -1403,6 +1403,22 @@ input::-moz-focus-inner {
     color: #000000;
 }
 
+.subheader__body{
+    background-image: url(../images/home_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .subheader__content{
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .subheader__content h1{
+    font-size: 4.0rem;
+    font-weight: bold;
+  }
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * display headings

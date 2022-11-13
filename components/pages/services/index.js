@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../../main/layout";
 import Footer from "../home/footer";
-import Home from "../home/home";
+import SubHeader from "../../main/subheader";
 import {Parallax, ParallaxLayer} from '@react-spring/parallax';
 import styles from './css/services.module.scss';
 import Head from 'next/head';
@@ -98,7 +98,7 @@ function AllServices({
                 <meta property="og:description"
                       content={service?.meta?.description || service?.description || ""}/>
             </Head>
-            <Home />
+            <SubHeader />
             <Parallax pages={service?.pages?.length ?? 1} className={"service-detail-body"}>
                 {children.length > 0 ? children :
                     <ParallaxLayer
