@@ -98,7 +98,7 @@ function AllServices({
                 <meta property="og:description"
                       content={service?.meta?.description || service?.description || ""}/>
             </Head>
-            <SubHeader title={page.title || service.title} />
+            <SubHeader title={page?.title || service?.title} />
             <Parallax pages={service?.pages?.length ?? 1} className={"service-detail-body"}>
                 {children.length > 0 ? children :
                     <ParallaxLayer
