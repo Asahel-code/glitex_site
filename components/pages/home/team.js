@@ -1,5 +1,5 @@
 import { team } from "../../../providers/team/data";
-import React, {useLayoutEffect, useRef, useState} from 'react';
+import React, { useLayoutEffect, useRef, useState } from 'react';
 import { CiCircleChevRight } from 'react-icons/ci';
 
 const Team = () => {
@@ -13,8 +13,18 @@ const Team = () => {
   }, []);
 
   const handleScroll = () => {
-    containerRef.current.scrollLeft += width;
+    if (containerRef.current !== null)
+      return containerRef.current.scrollLeft += width;
   }
+
+  const handleAutoScroll = () => {
+    setInterval(() => {
+      handleScroll();
+      handleAutoScroll();
+    }, 3000);
+  }
+
+  handleAutoScroll();
 
   return (
     <section id="team">

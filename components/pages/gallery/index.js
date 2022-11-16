@@ -10,7 +10,7 @@ function TheGallery({ dontShowNav }) {
     const body = (
         <div
             style={{
-                paddingTop: "5rem",
+                padding:"5rem 0",
                 marginLeft: 0,
                 marginRight: 0,
             }}>
@@ -41,7 +41,12 @@ export const SingleGalleryItem = ({
             <div className={galleryStyles.gallery__section}>
                 <div className={`${galleryStyles.gallery__body} ${index % 2 === 1 ? galleryStyles.gallery__item__reverse : galleryStyles.gallery__item}`}>
                     <div className={`${galleryStyles.gallery__image__section} ${galleryStyles.flexCenter}  ${index % 2 === 1 ? galleryStyles.gallery__image__section__left : galleryStyles.gallery__image__section__right}`}>
-                        <img src={galleryItem.image || galleryItem.banner} alt="galleryItem" className={`${galleryStyles.gallery__image} ${index % 2 === 1 ? " fadeLeftMini" : " fadeRightMini"}`} />
+                        <div className={galleryStyles.gallery__image__section__leftImage}>
+                            <img src={galleryItem.image || galleryItem.banner} alt="galleryItem" className={`${galleryStyles.gallery__image} ${index % 2 === 1 ? " fadeLeftMini" : " fadeRightMini"}`} />
+                        </div>
+                        <div className={galleryStyles.gallery__image__section__rightImage}>
+                            <img src={galleryItem.image || galleryItem.banner} alt="galleryItem" className={`${galleryStyles.gallery__image} ${index % 2 === 1 ? " fadeLeftMini" : " fadeRightMini"}`} />
+                        </div>
                     </div>
                     <div className={`${galleryStyles.gallery__text__section} ${index % 2 === 1 ? "fadeRightMini" : "fadeLeftMini"}`}>
                         <h1 className={galleryStyles.gallery__text__section__title}>{galleryItem.name || galleryItem.subtitle}</h1>
