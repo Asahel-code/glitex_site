@@ -15,10 +15,10 @@ const Services = () => {
                     </h1>
                 </div>
             </div>
-            <div className="row services-list block-1-3 block-tab-full">
+            <div className="services-list block-1-3 block-tab-full">
                 {
                     services?.map((service, index) =>
-                        <div key={service?.id} className="col-block service-item" data-aos="fade-up">
+                        <div key={service?.id} className="service-item" data-aos="fade-up">
                             <div className="service-icon">
                                 <div className="icon">{service?.icon}</div>
                             </div>

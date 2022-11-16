@@ -2782,6 +2782,7 @@ html.no-csstransitions .home-content__main {
     background: #FFFFFF !important;
     color: #757575;
     position: relative;
+    padding: 0 6.5rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2790,14 +2791,24 @@ html.no-csstransitions .home-content__main {
 
 .services-list {
     margin-top: 5rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(700px auto);
+    grid-gap: 1em;
 }
 
 .services-list .service-item {
-    height: 750px;
     margin: 0 0 1.2rem 1.2rem;
     border: 1px solid #FFE29F;
     border-radius: 1.0rem;
     background: #FFFCF3;
+    padding: 0 2.0rem;
+}
+
+.services-list .service-item:nth-child(5){
+    grid-column: 2/3;
+    grid-row: 2/4;
 }
 
 .services-list .service-item h3 {
@@ -2864,6 +2875,9 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 1000px) {
+    .s-services{
+        padding: 0 3.5rem;
+    }
     .services-list h3 {
         font-size: 2.5rem;
     }
@@ -2876,13 +2890,13 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 800px) {
     .services-list {
         margin-top: 4.2rem;
-        max-width: 500px;
-        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .services-list .service-item {
-        padding: 20px 0 15px;
-
+    .services-list .service-item:nth-child(5){
+        grid-column: 1;
+        grid-row: 2;
     }
 
     .services-list h3 {
@@ -2901,12 +2915,19 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
+    .services-list {
+        margin-top: 4.2rem;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .s-services {
-        padding-top: 12rem;
+        padding: 12rem 2.5rem 0 2.5rem;
     }
 
     .services-list .service-item {
-        padding: 15px 0 10px;
+        padding: 0 1.0rem;
     }
 
     .services-list h3 {
@@ -3217,6 +3238,7 @@ html.no-csstransitions .home-content__main {
 
 .clients-outer {
     overflow-x: hidden;
+    width: 100%;
 }
 
 .clients {
@@ -3366,8 +3388,6 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-@media only screen and (max-width: 1000px) {}
-
 @media only screen and (max-width: 800px) {
     .clients-testimonials::before {
         width: 400px;
@@ -3392,8 +3412,9 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .s-clients {
-        padding-top: 12rem;
+    .clients-outer {
+        width: 100%;
+        height: fit-content;
     }
 
     .clients-testimonials::before {
@@ -3410,10 +3431,6 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 400px) {
-    .clients {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
 
     .clients-testimonials .testimonials p {
         font-size: 1.9rem;
