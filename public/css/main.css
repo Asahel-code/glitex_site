@@ -1432,6 +1432,10 @@ input::-moz-focus-inner {
     .display-2 {
         font-size: 4.4rem;
     }
+
+    .subheader__content {
+        padding: 6rem 14rem;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -1441,6 +1445,10 @@ input::-moz-focus-inner {
 
     .display-2 {
         font-size: 4rem;
+    }
+
+    .subheader__content {
+        padding: 4rem 4rem;
     }
 }
 
@@ -1456,6 +1464,15 @@ input::-moz-focus-inner {
     .subhead {
         font-size: 1.5rem;
     }
+    .subheader__content {
+        text-align: center;
+        padding: 4rem 3rem;
+    }
+    
+    .subheader__content h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -1465,6 +1482,15 @@ input::-moz-focus-inner {
 
     .display-2 {
         font-size: 3rem;
+    }
+
+    .subheader__content {
+        padding: 4rem 2rem;
+    }
+    
+    .subheader__content h1 {
+        font-size: 3.0rem;
+        font-weight: bold;
     }
 }
 

@@ -13,51 +13,74 @@
   color: black;
 }
 
-.service{
+.service {
   background-color: #ffbf00;
   padding: 2rem 12rem;
-  &__title{
+  &__title {
     text-align: center;
-    h3{
+    h3 {
       color: #000;
-      font-size: 3.0rem;
-      font-weight: bold; 
+      font-size: 3rem;
+      font-weight: bold;
     }
 
-    p{
-      font-size: 2.0rem;
+    p {
+      font-size: 2rem;
       color: #000;
     }
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .parallax_description {
     padding: 2rem;
   }
 
+  .service {
+    padding: 2rem 0;
+    &__title {
+    h3 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: #000;
+    }
+  }
+  }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .parallax_description {
     padding: 3rem;
   }
 
+  .service {
+    padding: 2rem 3rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .parallax_description {
     padding: 5rem;
   }
 
+  .service {
+    padding: 2rem 4rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .parallax_description {
     padding: 8rem;
+  }
+
+  .service {
+    padding: 2rem 6rem;
   }
 }
