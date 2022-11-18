@@ -3526,47 +3526,47 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .onboarding {
-    display: "flex";
-    justify-content: "center";
-    align-items: "center";
-    background-color: "#fff";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
 }
 
-.onboard__container {
-    padding: "2rem 0";
-    width: "20%";
+.onboarding__container {
+    padding: 2rem 0;
+    width: 42%;
 }
 
 .onboarding__title {
-    color: "#000";
-    font-size: "3.75rem";
-    line-height: "1";
-    font-weight: "bold";
+    color: #000;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: bold;
 }
 
 .onboarding__underline {
-    padding: "0.75rem 0";
+    padding: 0.75rem 0;
 }
 
 .onboarding__body {
-    margin: "0 8rem";
+    margin: 0 8rem;
 }
 
 .onboarding__body .onboarding__message {
-    margin: "2.5rem 0";
-    text-align: "justify";
+    margin: 2.5rem 0;
+    text-align: justify;
 }
 
 .onboarding__btn {
-    text-align: "center";
+    text-align: center;
     background-color: var(--primary);
-    padding: "1rem 0";
-    cursor: "pointer"
+    padding: 1rem 0.8rem;
+    cursor: pointer;
 }
 
 .onboarding__btn span {
     color: #000;
-    font-weight: "600"
+    font-weight: 600;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3576,26 +3576,33 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1200px) {
     .onboarding__container {
-        width: "45%";
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .onboarding__container {
+        width: 68%;
     }
 }
 
 @media only screen and (max-width: 800px) {
     .onboarding__container {
-        width: "60%";
+        width: 70%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .onboarding__container {
-        width: "75%";
+        width: 100%;
     }
+   
 }
 
 
 @media only screen and (max-width: 400px) {
-    .onboarding__container {
-        width: "90%";
+    .onboarding__btn span {
+        font-size: 1.4rem;
     }
 }
 

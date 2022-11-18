@@ -3,24 +3,24 @@ import React from 'react'
 const Onboarding = () => {
     return (
         <section id="onboarding">
-            <div style={{ display:"flex", justifyContent:"center", alignItems: "center", backgroundColor: "#fff" }} className="bg-white flex justify-center items-center">
-                <div className="onboard__container" style={{width: "45%"}}>
-                    <div className="row section-header" data-aos="fade-up">
-                        <div className="onboarding__container">
-                            <h3 style={{ color: "black", fontSize: "3.75rem", lineHeight: "1", fontWeight:"bold" }}>Our onboarding process</h3>
-                            <div style={{padding: "0.75rem 0"}} className="subhead__underline">
+            <div className="onboarding">
+                <div className="onboarding__container">
+                    <div data-aos="fade-up">
+                        <div className="row section-header">
+                            <h3 className="onboarding__title">Our onboarding process</h3>
+                            <div className="subhead__underline onboarding__underline">
                                 <div className="subhead__underline__body"></div>
                             </div>
-                            <div style={{margin: "0 8rem"}}>
-                                <div style={{margin: "2.5rem 0",}}>
-                                    <p>
-                                        We have deployed a BD process that allows us to
-                                        serve our clients in the best way we know how to
-                                    </p>
-                                </div>
-                                <div style={{textAlign: "center", backgroundColor: "#ffbf00", padding: "1rem 0", cursor: "pointer"}}>
-                                    <span style={{color: "black", fontWeight: "600"}}>View our onboarding process</span>
-                                </div>
+                        </div>
+                        <div className="onboarding__body">
+                            <div className="onboarding__message">
+                                <p>
+                                    We have deployed a BD process that allows us to
+                                    serve our clients in the best way we know how to
+                                </p>
+                            </div>
+                            <div className="onboarding__btn">
+                                <span>View our onboarding process</span>
                             </div>
                         </div>
                     </div>
