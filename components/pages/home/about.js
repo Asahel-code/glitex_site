@@ -40,7 +40,7 @@ const About = () => {
                     <h5>Cups of Coffee</h5>
                 </div>*/}
                 {/*<div className="col-block stats__col"/>*/}
-                <div className="col-block stats__col">
+                <div className="col-block stats__col display-3">
                     <div style={{
                         display: "flex",
                         justifyContent: "center"
@@ -54,7 +54,7 @@ const About = () => {
                     </div>
                     <h5>Projects Completed</h5>
                 </div>
-                <div className="col-block stats__col">
+                <div className="col-block stats__col display-3">
                     <div style={{
                         display: "flex",
                         justifyContent: "center"

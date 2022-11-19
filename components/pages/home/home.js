@@ -16,7 +16,7 @@ const Home = ({ home }) => {
                              src={"/images/yellow_bar.png"}
                         />
                     </div> */}
-                    <h1 className={styles.title_header_text}>
+                    <h1 className={`${styles.title_header_text} display-3`}>
                         GLITEX
                     </h1>
                     <h1 style={{ color: 'var(--primary)' }} className="display-3">
