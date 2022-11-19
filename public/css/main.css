@@ -1403,10 +1403,11 @@ input::-moz-focus-inner {
     color: #000000;
 }
 
-.subheader__body {
-    /* background-image: url(../images/home_background.jpg); */
+.suheader__body {
+    background-image: url(../images/home_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 .subheader__content {
