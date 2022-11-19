@@ -82,7 +82,7 @@ body {
     font-family: "lora-regular", serif;
     font-size: 1.7rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     line-height: 1.765;
     color: #757575;
     margin: 0;
@@ -382,6 +382,8 @@ hr {
     margin: 2.4rem 0 1.5rem;
     height: 0;
 }
+
+
 
 /* ------------------------------------------------------------------- 
  * ## Lists
@@ -1370,6 +1372,13 @@ input::-moz-focus-inner {
 
 .subhead+.display-2 {
     margin-top: .6rem;
+}
+
+.display-3 {
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 5.2rem;
+    line-height: 1.255;
+    font-weight: bold;
 }
 
 .subhead {
