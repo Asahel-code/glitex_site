@@ -2983,23 +2983,59 @@ html.no-csstransitions .home-content__main {
     background: #FFFCF3;
 }
 
-.product-dev-item {
+.product-dev__body {
     width: 100%;
-    padding: 10.0rem;
+    padding: 4rem 8.0rem;
 }
 
 .product-dev-icon {
     text-align: center;
 }
 
-.product-dev-text .product-dev-text-title {
-    display: flex;
-    justify-self: center;
-}
-
-.product-dev-text:last-child {
+.product-dev__text{
     text-align: justify;
 }
+
+.product-dev__text .product-dev__text__title {
+    text-align: center !important;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * services
+ * ------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1200px) {
+    .product-dev__body {
+        padding: 4rem 7.0rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .product-dev__body {
+        padding: 4rem 6.0rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .product-dev__body {
+        padding: 4rem 5.0rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .product-dev__body {
+        padding: 4rem 4.0rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .product-dev__body {
+        padding: 4rem 3.0rem;
+    }
+}
+
 
 
 /* ===================================================================
@@ -3628,7 +3664,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 400px) {
     .onboarding__btn span {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 

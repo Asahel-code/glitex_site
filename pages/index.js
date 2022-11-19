@@ -36,20 +36,22 @@ export default function Index() {
                 <meta name="keywords"
                     content="software development companies in Kenya, software developers in Kenya, software company in Nairobi" />
             </Head>
-            <Home home={true} />
-            <div className="clients">
-                <Clients />
-            </div>
+            <div style={{overflow: "hidden"}}>
+                <Home home={true} />
+                <div className="clients">
+                    <Clients />
+                </div>
 
-            <About />
-            <Team />
-            <Services />
-            <ProductDevelopment />
-            <Works />
-            <Stack />
-            <Onboarding />
-            <Contact />
-            <Footer />
+                <About />
+                <Team />
+                <Services />
+                <ProductDevelopment />
+                <Works />
+                <Stack />
+                <Onboarding />
+                <Contact />
+                <Footer />
+            </div>
         </Layout>
     )
 }
