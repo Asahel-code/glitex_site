@@ -62,7 +62,7 @@ const About = () => {
                         <div className="stats__count">
                             113
                         </div>
-                        <div className="stats__countt">
+                        <div className="stats__count">
                             +
                         </div>
                     </div>

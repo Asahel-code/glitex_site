@@ -10,7 +10,7 @@ function TheGallery({ dontShowNav }) {
     const body = (
         <div
             style={{
-                padding:"5rem 0",
+                padding: "5rem 0",
                 marginLeft: 0,
                 marginRight: 0,
             }}>
@@ -51,11 +51,11 @@ export const SingleGalleryItem = ({
                     <div className={`${galleryStyles.gallery__text__section} ${index % 2 === 1 ? "fadeRightMini" : "fadeLeftMini"}`}>
                         <h1 className={galleryStyles.gallery__text__section__title}>{galleryItem.name || galleryItem.subtitle}</h1>
                         <p className={galleryStyles.gallery__text__section__description}>{galleryItem.description}</p>
-                        <div className={galleryStyles.gallery__button__section}>
+                        {galleryItem.name && <div className={galleryStyles.gallery__button__section}>
                             <span className={galleryStyles.gallery__button__section__button} onClick={() => { window.location.href = getGallerySlug(galleryItem, index); }}>
                                 View more
                             </span>
-                        </div>
+                        </div>}
                     </div>
                 </div>
             </div>
